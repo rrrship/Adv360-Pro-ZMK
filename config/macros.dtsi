@@ -1,3 +1,9 @@
+macro_resume_debug: macro_resume_debug{
+compatible = "zmk,behavior-macro";
+label = "macro_resume_debug";
+#binding-cells = <0>;
+bindings = <&kp LALT>, <&kp LGUI>, <&kp R>;
+};
 macro_step_out_debug: macro_step_out_debug{
 compatible = "zmk,behavior-macro";
 label = "macro_step_out_debug";
