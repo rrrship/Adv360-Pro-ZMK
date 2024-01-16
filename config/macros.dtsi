@@ -1,3 +1,9 @@
+macro_run_test: macro_run_test{
+compatible = "zmk,behavior-macro";
+label = "macro_run_test";
+#binding-cells = <0>;
+bindings = <&kp RSHFT>, <&kp RCTRL>, <&kp R>;
+};
 macro_paragraph_dn: macro_paragraph_dn{
 compatible = "zmk,behavior-macro";
 label = "macro_paragraph_dn";
