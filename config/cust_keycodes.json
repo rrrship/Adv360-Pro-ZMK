@@ -1,1 +1,19 @@
-[]
+[
+	{
+		"names": [
+			"resume_debug"
+		],
+		"description": "resume_debug",
+		"clarify": false,
+		"documentation": "",
+		"os": {
+			"windows": true,
+			"linux": true,
+			"android": true,
+			"macos": true,
+			"ios": true
+		},
+		"footnotes": {},
+		"type": "UD"
+	}
+]
