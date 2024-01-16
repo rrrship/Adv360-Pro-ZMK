@@ -1,3 +1,9 @@
+macro_debug_test: macro_debug_test{
+compatible = "zmk,behavior-macro";
+label = "macro_debug_test";
+#binding-cells = <0>;
+bindings = <&kp RSHFT>, <&kp RCTRL>, <&kp D>;
+};
 macro_run_test: macro_run_test{
 compatible = "zmk,behavior-macro";
 label = "macro_run_test";
